@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/MyerSplash/The\ Cleveland\ Museum\ of\ Art\ \ 2023-03-09\ 05-39-52.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+    color: white;
+    font-size: 4em;
+    margin: 10px 20px;
+    font-family: "Raleway", sans-serif
+}
+
+main {
+    text-align: center;
+    color: #fff;
+    margin: 200px 0 200px;
+}
+
+main h1 {
+    font-size: 7em;
+    font-family: "Raleway", sans-serif
+}
+
+main hr {
+    width: 15%;
+}
+
+main p {
+    font-size: 3em;
+}
+
+footer {
+   color: #fff;
+   font-size: 2em;
+   text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    footer > * {
+        font-size: smaller;
+    }
+
+    header {
+        text-align: center;
+    }
+}

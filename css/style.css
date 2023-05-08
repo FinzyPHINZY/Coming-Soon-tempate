@@ -22,6 +22,10 @@ main h1 {
     font-family: "Raleway", sans-serif
 }
 
+main br {
+    display: none;
+}
+
 main hr {
     width: 15%;
 }
@@ -46,6 +50,10 @@ footer a {
         font-size: smaller;
     }
 
+     main br {
+        display: block;
+    }
+    
     header {
         text-align: center;
     }
